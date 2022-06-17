@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: linear-gradient(120deg, rgb(75, 12, 83),rgb(179, 115, 20),rgb(78, 12, 95));
+    width: 100vw;
+    height: auto;
+}
+
+hr {
+    border-color: black;
+}
+
+
+
+#navbar{
+    height: 25vh;
+    width: 100vw;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#home{
+    margin-bottom: 5vh;
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30vw;
+    
+    
+}
+
+.buttons button {
+    font-size: 1.5rem;
+    width: 6vw;
+    height: 5vh;
+    background-color: purple;
+    color: rgb(250, 250, 62);
+    border: 2px solid black;
+    border-radius: 1rem;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.buttons button:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.list {
+
+    border: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.082);
+    
+    width: 70vw;
+    margin: 5vh auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+   
+}
+
+#food {
+    width: 30vw;
+    
+   
+    height: 30vh;
+    margin: 1rem 1rem;
+    display: flex;
+    
+}
+
+#food img {
+    margin-top: 1vh;
+    margin-left: 1vw;
+    width: 14vw;
+    height: 28vh;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+#features {
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+#features div {
+    width: 100%;
+}
+
+#features p {
+    margin-top: 1vh;
+}
